@@ -1,0 +1,23 @@
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo .fa-clipboard-list {
+    margin-right: 0.5rem;
+    transform: rotateZ(30deg);
+}
+
+.logo h2 {
+    border-bottom: 2px solid $accent-color;
+}

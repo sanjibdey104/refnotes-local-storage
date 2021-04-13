@@ -1,0 +1,38 @@
+.note-display-area {
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.note-card {
+    width: 15rem;
+    height: 12rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background-color: $base-white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.note-content {
+    margin-bottom: 2rem;
+    font-size: 0.85rem;
+}
+
+.note-delete-btn {
+    background-color: $mild-red;
+    color: $base-white;
+    font-weight: 500;
+    border: 0;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+}

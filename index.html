@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RefNotes</title>
+
+    <script src="https://kit.fontawesome.com/991c226565.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <i class="fas fa-clipboard-list fa-2x"></i>
+                <h2>RefNotes</h2>
+            </div>
+
+            <section class="note-search-area">
+                <input type="text" name="search-bar" id="search-bar" placeholder="search note here...">
+                <button class="note-search-btn">search</button>
+            </section>
+        </header>
+
+        
+
+        <section class="note-creation-area">
+            <form action="/nowhere" class="new-note-form">
+                <textarea name="new-note-content" id="new-note-content" cols="40" rows="5" placeholder="add notes here..."></textarea>
+                <button class="add-note-btn">Add Note</button>
+            </form>
+        </section>
+
+        <section class="note-display-area"></section>
+
+    </div>
+    
+</body>
+</html>

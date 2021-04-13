@@ -1,0 +1,15 @@
+#search-bar {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid $accent-color;
+    border-radius: 0.5rem;
+}
+
+.note-search-btn {
+    background-color: $accent-color;
+    color: $base-white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
